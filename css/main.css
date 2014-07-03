@@ -4,7 +4,7 @@ GENERAL
 body{
 	font-family:'Open Sans', sans-serif;
 	background-image: url('../img/green.jpg');
-	color: #999;
+	color: #E6005C;
 }
 #wrapper{
 	clear: both;
@@ -15,18 +15,6 @@ body{
 }
 
 
-header{
-	/*;*/
-	
-}
-
-
-.navi{
- 	/*background: #599a68;*/
- 	
-
- }
-
 nav a, nav a:visited {
 	color: #fff;
 }
@@ -35,6 +23,10 @@ nav a, nav a:visited {
 	margin-right: 2px;
 	padding:25px 10px 25px 0;
 	width: 100%;
+	/*position: fixed;
+	left:0;
+	right:0;
+	top: 0;*/
 }
 nav {
 	
@@ -63,8 +55,7 @@ h1, h2 {
 
 a img:hover{
 	opacity: 0.5; 
-	/*filter: alpha(opacity=30);*/
-	background-color: rgba(255,255,255,0.8);
+	filter: alpha(opacity=50);
 }
 nav a.selected, nav a:hover{
 	color: #32673f;
@@ -77,11 +68,17 @@ img {
 #myname{
 	
 	/*background-color:black;*/
-	border: 1px solid #599a68;;
+/*	border: 1px solid #599a68;*/
 	clear: both;
 	background: rgba(0,0,0,0.6);
-	padding-bottom: 200px;
+	padding-bottom: 40px;
+	margin-top: 70px;
 
+}
+#myname p{
+	padding-top: 60px;
+	font-family:'Roboto Slab', serif;
+	color: #E6005C;
 }
 
 /*links*/
@@ -148,7 +145,7 @@ PAGE PORFOLIO
 ********************/
 #gallery{
 	margin: 0;
-	padding: 0;
+	padding-top: 90px;
 	list-style: none;
 }
 
@@ -156,14 +153,14 @@ PAGE PORFOLIO
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #f5f5f5; 
+	background-color: rgba(0,0,0,0.6); 
 }
 
 #gallery li a p {
 	margin: 0;
 	padding: 5%;
 	font-size: 0.9em;
-	color: #bdc3c7;
+	color: #E6005C;
 }
 
 
@@ -190,6 +187,7 @@ PAGE: ABOUT
 }
 
 #sectabout {
+	clear: both;
 	text-align: center;
 	color:  #E6005C;
 }
@@ -198,13 +196,18 @@ PAGE: ABOUT
 	right: 500px;
 }
 
-
-
+.group:after, .group:before{
+  content: ".";
+  display: table;
+}
+.group:after {
+	clear: both;
+}
 
 /*****************
 PAGE: CONTACT
 ********************/
-.contact-info{
+.contact-info {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -217,9 +220,6 @@ PAGE: CONTACT
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
-}
-#primary, #secondary{
-	color:#E6005C;
 }
 
 .contact-info li.phone a{
