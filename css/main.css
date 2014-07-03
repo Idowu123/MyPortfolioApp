@@ -14,19 +14,6 @@ body{
 
 }
 
-
-header{
-	/*;*/
-	
-}
-
-
-.navi{
- 	/*background: #599a68;*/
- 	
-
- }
-
 nav a, nav a:visited {
 	color: #fff;
 }
@@ -35,6 +22,9 @@ nav a, nav a:visited {
 	margin-right: 2px;
 	padding:25px 10px 25px 0;
 	width: 100%;
+	position: fixed;
+	left:0;
+	right:0;
 }
 nav {
 	
