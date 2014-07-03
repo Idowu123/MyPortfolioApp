@@ -67,11 +67,17 @@ img {
 #myname{
 	
 	/*background-color:black;*/
-	border: 1px solid #599a68;;
+	/*border: 1px solid #599a68;;*/
 	clear: both;
 	background: rgba(0,0,0,0.6);
 	padding-bottom: 200px;
+	margin-top: 70px;
+	}
 
+#myname p{
+	padding-top: 60px;
+	font-family:'Roboto Slab', serif;
+	color: #E6005C;
 }
 
 /*links*/
@@ -138,7 +144,7 @@ PAGE PORFOLIO
 ********************/
 #gallery{
 	margin: 0;
-	padding: 0;
+	padding-top: 90px;
 	list-style: none;
 }
 
@@ -146,15 +152,14 @@ PAGE PORFOLIO
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #f5f5f5; 
+	background-color: rgba(0,0,0,0.6); 
 }
 
 #gallery li a p {
 	margin: 0;
 	padding: 5%;
 	font-size: 0.9em;
-	color: #bdc3c7;
-}
+	color: #E6005C;
 
 
 
